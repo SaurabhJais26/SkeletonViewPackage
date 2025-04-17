@@ -7,7 +7,7 @@ let package = Package(
     name: "SkeletonViewPackage",
     platforms: [
         .iOS(.v13),
-        .macOS(.v14)
+        .macOS(.v15)
     ],
     products: [
         .library(
