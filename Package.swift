@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "SkeletonViewPackage",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v13),
+        .macOS(.v13)
     ],
     products: [
         .library(
